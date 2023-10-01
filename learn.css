@@ -1,0 +1,36 @@
+.section1{
+    display: flex;
+justify-content: center;
+flex-direction:column ;
+align-items: center;}
+.introduction{
+    display:grid ;
+grid-template-columns: 50% 50%;
+grid-gap: 20px; }
+.introduction p{
+    line-height: 1.6;
+}
+.section1 h1{
+    color:#00b39b;
+    font-weight:100 ;
+}
+.section2{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-gap: 20px;
+}
+.patients{
+    background-color:  #00ccb1;
+}
+.doctors{
+    background-color:  #3e83e0; 
+}
+.clinics{
+    background-color: #1b2735;
+}
+.box{
+    height: 300px;
+    border-radius: 7px;
+    padding: 20px;
+    color: white;
+}
